@@ -101,25 +101,22 @@ func (a *App) showPreferences() {
 
 // showAbout shows the app's about dialog.
 func (a *App) showAbout() {
-	dialog := adw.NewAboutDialog()
-	dialog.SetDeveloperName("DeedleFake")
+	dialog := gtk.NewAboutDialog()
+	dialog.SetProgramName("Trayscale")
 	dialog.SetCopyright("Copyright (c) 2025 DeedleFake")
 	dialog.SetLicense(metadata.License())
 	dialog.SetLicenseType(gtk.LicenseCustom)
-	dialog.SetApplicationIcon(metadata.AppID)
-	dialog.SetApplicationName("Trayscale")
+	dialog.SetLogo(nil) // Could add icon later if needed
 	dialog.SetWebsite("https://github.com/DeedleFake/trayscale")
-	dialog.SetIssueURL("https://github.com/DeedleFake/trayscale/issues")
-
-	rnv, rn := metadata.ReleaseNotes()
-	dialog.SetReleaseNotesVersion(rnv)
-	dialog.SetReleaseNotes(rn)
+	dialog.SetWebsiteLabel("Website")
 
 	if v, ok := metadata.Version(); ok {
 		dialog.SetVersion(v)
 	}
 
-	dialog.Present(a.window())
+	dialog.SetModal(true)
+	dialog.SetTransientFor(a.window())
+	dialog.Show()
 }
 
 func (a *App) getInterval() time.Duration {

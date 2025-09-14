@@ -3,7 +3,7 @@
 <interface>
   <!-- interface-name preferences.ui -->
   <requires lib="gtk" version="4.0"/>
-  <requires lib="libadwaita" version="1.6"/>
+  <requires lib="libadwaita" version="1.5"/>
   <object class="AdwPreferencesDialog" id="PreferencesDialog">
     <property name="visible-page">PreferencesPage</property>
     <child>

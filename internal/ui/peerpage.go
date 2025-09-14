@@ -71,8 +71,8 @@ type PeerPage struct {
 	RxBytes               *gtk.Label
 	TxBytesRow            *adw.ActionRow
 	TxBytes               *gtk.Label
-	SendFileBurron        *adw.ButtonRow
-	SendDirButton         *adw.ButtonRow
+	SendFileBurron        *adw.ActionRow
+	SendDirButton         *adw.ActionRow
 	DropTarget            *gtk.DropTarget
 
 	sendFileAction *gio.SimpleAction

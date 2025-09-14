@@ -3,7 +3,7 @@
 <interface>
   <!-- interface-name mullvadpage.ui -->
   <requires lib="gtk" version="4.12"/>
-  <requires lib="libadwaita" version="1.0"/>
+  <requires lib="libadwaita" version="1.5"/>
   <object class="AdwStatusPage" id="Page">
     <property name="title">Mullvad Exit Nodes</property>
     <child>

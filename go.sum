@@ -62,10 +62,10 @@ github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dblohm7/wingoes v0.0.0-20250611174154-e3e096948d18 h1:1+ezXI2ZjiS8zenp08GFowF3zkVQ4j8/CPaALxqCBq0=
 github.com/dblohm7/wingoes v0.0.0-20250611174154-e3e096948d18/go.mod h1:SUxUaAK/0UG5lYyZR1L1nC4AaYYvSSYTWQSH3FPcxKU=
-github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20250703085337-e94555b846b6 h1:WzOC3KtvrC1hJMz3fbJBg0Ye50nt4Tafor+a/bBHNEA=
-github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20250703085337-e94555b846b6/go.mod h1:ZzYiyPe0TqsukfPHi0sK/WwKzm0wIJdSRylLnuvAZNw=
-github.com/diamondburned/gotk4/pkg v0.3.2-0.20250703063411-16654385f59a h1:dN2jYYZ71hFhoKFSn24pQdKWLZb/XDydBt8pEIkFjJo=
-github.com/diamondburned/gotk4/pkg v0.3.2-0.20250703063411-16654385f59a/go.mod h1:O9K8+PGNFGJpAu8+u5D2Sn5Wae4hxWzHB+AeZNbV/2Q=
+github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20250703085740-f81761ef0e0d h1:4f+Bh+9AFQiz2yzGwpt6vrsgzt0kGNkQJkYHY6xIlPg=
+github.com/diamondburned/gotk4-adwaita/pkg v0.0.0-20250703085740-f81761ef0e0d/go.mod h1:ZzYiyPe0TqsukfPHi0sK/WwKzm0wIJdSRylLnuvAZNw=
+github.com/diamondburned/gotk4/pkg v0.3.2-0.20250703071127-d44ab4b5b24e h1:6mkA6o+N8NY2Qu6MS/QF8U76wP5pj9Sqb2Afiz6/wFA=
+github.com/diamondburned/gotk4/pkg v0.3.2-0.20250703071127-d44ab4b5b24e/go.mod h1:O9K8+PGNFGJpAu8+u5D2Sn5Wae4hxWzHB+AeZNbV/2Q=
 github.com/digitalocean/go-smbios v0.0.0-20180907143718-390a4f403a8e h1:vUmf0yezR0y7jJ5pceLHthLaYf4bA5T14B6q39S4q2Q=
 github.com/digitalocean/go-smbios v0.0.0-20180907143718-390a4f403a8e/go.mod h1:YTIHhz/QFSYnu/EhlF2SpU2Uk+32abacUYA5ZPljz1A=
 github.com/djherbis/times v1.6.0 h1:w2ctJ92J8fBvWPxugmXIv7Nz7Q3iDMKNx9v5ocVH20c=
