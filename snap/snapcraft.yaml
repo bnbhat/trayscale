@@ -48,6 +48,8 @@ parts:
   trayscale:
     plugin: go
     source: .
+    build-snaps:
+      - go/latest/stable
     stage-packages:
       - libproxy1v5
 
